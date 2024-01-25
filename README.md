@@ -15,10 +15,9 @@ Running the App
 ```bash
 bundle install
 ```
+   - run rails db:create to create database
    - Run rails db:migrate setup the database
-5. Setup the frontend:
-   - Run yarn install to install react frontend
-6. Run rails/server
+5. Run rails/server
 ```bash
 rails/server
 ```
