@@ -1,6 +1,7 @@
 # CVWO Web Forum (by Chen Shaoheng)
 
 A web forum created using React and Typescript for frontend and Ruby on Rails backend.
+
 Link to deployed app: https://mysite-w3o1.onrender.com
 
 ## Getting Started
