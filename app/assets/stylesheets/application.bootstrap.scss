@@ -1,0 +1,175 @@
+@import 'bootstrap/scss/bootstrap';
+@import 'bootstrap-icons/font/bootstrap-icons';
+
+.bg_primary-color {
+  background-color: #FFFFFF;
+}
+.primary-color {
+  background-color: #FFFFFF;
+}
+.bg_secondary-color {
+  background-color: #293241;
+}
+.secondary-color {
+  color: #293241;
+}
+.custom-button.btn {
+  background-color: #0077ff;
+  color: #FFF;
+  border: none;
+}
+.hero {
+  width: 100vw;
+  height: 50vh;
+}
+.hero img {
+  object-fit: cover;
+  object-position: top;
+  height: 100%;
+  width: 100%;
+}
+.overlay {
+  height: 100%;
+  width: 100%;
+  opacity: 0.4;
+}
+
+.addMargin {
+  margin-bottom: 10px;
+}
+
+.clamp {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+ -webkit-line-clamp: 9;
+ -webkit-box-orient: vertical;
+}
+
+.pad {
+  padding: 10px;
+}
+
+.card-header {
+  background-color: rgb(247, 136, 111);
+}
+
+.color {
+  background-color: rgb(150, 212, 251);
+}
+
+nav {
+  background-color: rgb(9, 143, 220);
+  width: 100%;
+  padding: 0.8em 1em;
+  display: flex;
+  column-gap: 1em;
+  z-index: 1;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.alignLeft {
+  margin-right: auto;
+}
+
+.rightAlign {
+  margin-left: auto;
+}
+
+.search {
+  display: flex;
+  column-gap: 0.3em;
+}
+
+.forum {
+  font-size:25px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+.title {
+  margin-left: 30px;
+  width: 80vw;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 7px;
+}
+
+.spacer {
+  height: 93px;
+}
+
+.innerbox {
+  margin: 40px;
+}
+
+.posttext {
+  padding-top: 2em;
+}
+
+body {
+  background-color: rgb(150, 212, 251);
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.comments {
+  padding: 1em; 
+}
+
+.comm {
+  width: 78vw;
+  z-index: -1;
+  margin-left:4vw;
+}
+
+.back {
+  z-index: -1;
+}
+
+.commentsHeader {
+  margin-left: 2.5vw;
+  font-weight: bold;
+  margin-top: 1em;
+  margin-bottom: -2em;
+}
+
+.login {
+  width: 30vw;
+}
+
+.rowgap {
+  row-gap: 3em;
+}
+
+.head {
+  color: rgb(0, 93, 254);
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.up {
+  margin-top: -2em;
+}
+
+.spacing {
+  margin-left: 2em;
+  font-style:italic;
+}
+
+.pullup {
+  margin-top: -1em;
+  font-size: 14px;
+  font-style:italic;
+}
+
+.rightMargin {
+  margin-right: 0.3em;
+}
+
